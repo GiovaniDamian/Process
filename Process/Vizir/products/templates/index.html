@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css">
+    <title>Telzir</title>
+        <form action="models.py" id="formulario" name="formulario" class="formulario" method="post">
+            <div class="field">
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="eo" name="eo">
+                    <option selected>DD Origem</option>
+                    <option value="1">011</option>
+                    <option value="2">016</option>
+                    <option value="3">017</option>
+                    <option value="4">018</option>
+                </select>
+            </div>
+            <div class="field">
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="ed" name="ed">
+                    <option selected>DD Destino</option>
+                    <option value="1">011</option>
+                    <option value="2">016</option>
+                    <option value="3">017</option>
+                    <option value="4">018</option>
+                </select>
+            </div>
+            <div class="field">
+                <input class="form-control form-control-lg" type="number" placeholder="Quantos minutos" aria-label=".form-control-lg example" id="min" name="min">
+            </div>
+            <div class="field">
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="ofm" name="ofm">
+                    <option selected>Qual o plano</option>
+                    <option value="1">Fale Mais 30 minutos</option>
+                    <option value="2">Fale Mais 60 minutos</option>
+                    <option value="3">Fale Mais 120 minutos</option>
+                    <option value="4">Sem Fale Mais</option>
+                </select>
+            </div>
+            <button type="submit" name="acao">Calcule o valor da tarifa</button>
+        </form>
+</html>
+
