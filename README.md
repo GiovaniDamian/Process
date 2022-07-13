@@ -3,5 +3,7 @@
 
 <div>
   <i>Interface</i>
+  <div>
   <img height="100em" src="https://github.com/GiovaniDamian/Process/blob/main/Screenshot_2.png"/>
+  </div>
 </div>
